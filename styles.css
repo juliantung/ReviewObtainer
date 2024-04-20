@@ -1,0 +1,73 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://yewdigitallock.com.sg/wp-content/uploads/2024/03/cropped-LOGO_1-1-1.png'); /* Use the provided image URL */
+    background-size: contain; /* Zoom out to fit the entire image */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Increase opacity by setting alpha value to 0.9 */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content horizontally */
+}
+
+h1 {
+    color: #333;
+}
+
+textarea {
+    width: calc(100% - 22px);
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#feedback {
+    display: none;
+}
+
+#feedbackConfirmation {
+    display: none;
+}
+
+/* Styles for the star icons */
+.star-rating {
+    font-size: 0; /* Remove whitespace between inline-block elements */
+}
+
+.star {
+    font-size: 40px; /* Make the stars bigger */
+    cursor: pointer;
+}
+
+/* Styles for the highlighted stars */
+
+.star.highlighted {
+    color: gold; /* Change the color of the stars when highlighted */
+}
+
+/* Styles for the highlighted stars */

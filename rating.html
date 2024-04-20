@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Our Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="pageTitle">Rate Our Service</h1>
+        <div id="ratings" class="star-rating">
+            <span class="star" onmouseover="highlightStars(1)" onmouseout="resetStars()" onclick="rate(1)">&#9733;</span>
+            <span class="star" onmouseover="highlightStars(2)" onmouseout="resetStars()" onclick="rate(2)">&#9733;</span>
+            <span class="star" onmouseover="highlightStars(3)" onmouseout="resetStars()" onclick="rate(3)">&#9733;</span>
+            <span class="star" onmouseover="highlightStars(4)" onmouseout="resetStars()" onclick="rate(4)">&#9733;</span>
+            <span class="star" onmouseover="highlightStars(5)" onmouseout="resetStars()" onclick="rate(5)">&#9733;</span>
+        </div>
+        <div id="feedback" style="display: none;">
+            <textarea id="feedbackText" placeholder="Your feedback is extremely valuable to us, please let us know how we can improve"></textarea>
+            <button onclick="submitFeedback()">Submit Feedback</button>
+        </div>
+        <div id="feedbackConfirmation" style="display: none;">
+            Your feedback has been sent to us and we will use it to improve :)
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
